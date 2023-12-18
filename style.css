@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 1240px;
+}
+.navbar-nav{
+    margin-left:300px !important;
+}
+.search-box{
+    width: 15%;
+}
+.violet-section{
+    background-color:rgb(46,41,63);
+}
+.vl-violet{
+    border-left: 8px solid rgb(155,89,182);
+    height: 35px;
+    padding-left: 10px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height:70px;
+    width: 50px;
+    /* outline: black; */
+    background-color: rgba(155,89,182, 0.8);
+    background-size: 100%, 100%;
+}
+
