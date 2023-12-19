@@ -10,7 +10,6 @@ header{
 }
 .container{
     max-width: 1240px;
-    color:#A5BBDC;
 }
 
 .connections{
@@ -42,16 +41,36 @@ header{
     border-left: 8px solid #02B0E4;
 }
 .violet-control {
-    height:70px;
-    width: 50px;
+    height:5em;
+    width: 3em;
     /* outline: black; */
     background-color: rgba(155,89,182, 0.8);
     background-size: 100%, 100%;
 }
-.carousel-item > img{
+#carouselExampleInterval .carousel-item img{
     height: 650px;
+    max-height: 650px;
 }
 .mainfilms{
     background-color: #161D25;
+}
+.mainfilms .carousel-item .card {
+    background-color: #1D232C;
+}
+@media screen and (min-width: 576px) {
+    .mainfilms .carousel-inner {
+        display:flex;
+    }
+    .mainfilms  .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+}
+.img-wrapper {
+    max-width: 100%;
+}
+.card {
+    margin: 0 .5em;
 }
 
