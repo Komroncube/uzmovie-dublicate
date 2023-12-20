@@ -38,13 +38,32 @@ header{
     border-left: 8px solid rgb(155,89,182);
 }
 .vl-blue{
-    border-left: 8px solid #02B0E4;
+    border-left: 8px solid rgb(2, 176, 228);
+}
+.vl-red {
+    border-left: 8px solid rgb(238, 5, 59);
+    height: 30px;
+}
+.vl-yellow {
+    border-left: 8px solid yellow;
+    height: 30px;
 }
 .violet-control {
     height:5em;
     width: 3em;
-    /* outline: black; */
     background-color: rgba(155,89,182, 0.8);
+    background-size: 100%, 100%;
+}
+.blue-control {
+    height:3em;
+    width: 1.6em;
+    background-color: rgba(2, 176, 228, 0.95);
+    background-size: 100%, 100%;
+}
+.red-control {
+    height:3em;
+    width: 1.6em;
+    background-color: rgba(238, 5, 59, 0.95);
     background-size: 100%, 100%;
 }
 #carouselExampleInterval .carousel-item img{
@@ -54,14 +73,14 @@ header{
 .mainfilms{
     background-color: #161D25;
 }
-.mainfilms .carousel-item .card {
+.mainfilms .card {
     background-color: #1D232C;
 }
 @media screen and (min-width: 576px) {
-    .mainfilms .carousel-inner {
+    article .carousel-inner {
         display:flex;
     }
-    .mainfilms  .carousel-item {
+    article  .carousel-item {
         display: block;
         margin-right: 0;
         flex: 0 0 calc(100%/3);
@@ -72,5 +91,15 @@ header{
 }
 .card {
     margin: 0 .5em;
+}
+#RedCarousel .carousel-item img {
+    height: 14em;
+    max-height: 14em;
+}
+.yellow-section .card {
+    height: 5em;
+}
+.yellow-section p {
+    font-size: .7em;
 }
 

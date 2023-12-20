@@ -127,7 +127,7 @@
                 </svg>
                 </button>
                 <button type="button" class="btn btn-secondary">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
                         <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
                     </svg>
                 </button>
@@ -165,6 +165,7 @@
     <div class="mainfilms">
         <div class="container">
             <div class="row p-5">
+                <!-- ko'p kinolar qatnashga karusel -->
                 <div class="left-side col-9">
                     <article>
                         <div class="vl vl-blue mt-4 mb-2"><h3 style="color: #A5BBDC;">TARJIMA KINOLAR</h3></div>
@@ -222,11 +223,11 @@
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#multipleFilmsPart1" role="button" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="carousel-control-prev-icon blue-control" aria-hidden="true"></span>
                               <span class="sr-only">Previous</span>
                             </a>
                             <a class="carousel-control-next" href="#multipleFilmsPart1" role="button" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="carousel-control-next-icon blue-control" aria-hidden="true"></span>
                               <span class="sr-only">Next</span>
                             </a>
                           </div>
@@ -277,11 +278,11 @@
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#multipleFilmsPart2" role="button" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="carousel-control-prev-icon blue-control" aria-hidden="true"></span>
                               <span class="sr-only">Previous</span>
                             </a>
                             <a class="carousel-control-next" href="#multipleFilmsPart2" role="button" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="carousel-control-next-icon blue-control" aria-hidden="true"></span>
                               <span class="sr-only">Next</span>
                             </a>
                           </div>
@@ -332,24 +333,150 @@
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#multipleFilmsPart3" role="button" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="carousel-control-prev-icon blue-control" aria-hidden="true"></span>
                               <span class="sr-only">Previous</span>
                             </a>
                             <a class="carousel-control-next" href="#multipleFilmsPart3" role="button" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="carousel-control-next-icon blue-control" aria-hidden="true"></span>
                               <span class="sr-only">Next</span>
                             </a>
                           </div>
                     </article>
-                    <article>
-                        oxirgi kinolar
-                    </article>
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <section class="red-section">
+                                <div class="vl vl-red mt-4 mb-2"><h3>MULTFILMLAR</h3></div>
+                                <div class="container mb-3">
+                                    <div id="RedCarousel" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-interval="8000">
+                                                <div class="card p-2">
+                                                    <div class="img-wrapper">
+                                                        <img class="card-img-top" src="asserts/cote.webp" alt="Card image cap">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Garden of words</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <div class="card p-2">
+                                                    <div class="img-wrapper">
+                                                        <img class="card-img-top" src="asserts/cote.webp" alt="Card image cap">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Garden of words</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <div class="card p-2">
+                                                    <div class="img-wrapper">
+                                                        <img class="card-img-top" src="asserts/cote.webp" alt="Card image cap">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Garden of words</h5>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#RedCarousel" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon red-control" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#RedCarousel" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon red-control" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-6">
+                            <section class="yellow-section">
+                                <div class="vl vl-yellow mt-4 mb-2"><h3>KINO YANGILIKLARI</h3></div>
+                                <div class="card mb-1 mx-1" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="asserts/soul.jpg" class="img-fluid rounded-start" alt="soul">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row g-0">
+                                                <p class="col-10 p-1">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                                <button class="btn btn-secondary col-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                                        <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                                                        </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card m-1" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="asserts/soul.jpg" class="img-fluid rounded-start" alt="soul">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row g-0">
+                                                <p class="col-10 p-1">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                                <button class="btn btn-secondary col-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                                        <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                                                        </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card m-1" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="asserts/soul.jpg" class="img-fluid rounded-start" alt="soul">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row g-0">
+                                                <p class="col-10 p-1">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                                <button class="btn btn-secondary col-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                                        <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                                                        </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card m-1" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="asserts/soul.jpg" class="img-fluid rounded-start" alt="soul">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row g-0">
+                                                <p class="col-10 p-1">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                                <button class="btn btn-secondary col-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                                        <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                                                        </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        
+                    </div>
                 </div>
-                
                 <aside class="col-3">
-                    dropdown qismi bor bo'lgan kinolar
+                    <div class="vl vl-violet mt-4 mb-2"><h4>BIZGA QO'SHILING:</h4></div>
+                    <div class="social-networks">
+                        
+                    </div>
                 </aside>
             </div>
+
             
             
         </div>
